@@ -1,0 +1,20 @@
+{
+  "name": "SignatureTest",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "devDependencies": {
+    "@ui5/cli": "1.7.0",
+    "ui5-middleware-servestatic": "*",
+    "ui5-middleware-livereload": "*"
+  },
+  "scripts": {
+    "build": "ui5 build"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-servestatic",
+      "ui5-middleware-livereload"
+    ]
+  }
+}
