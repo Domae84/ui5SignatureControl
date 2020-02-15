@@ -15,4 +15,4 @@ server:
       afterMiddleware: compression
       mountPath: /resources
       configuration:
-        rootPath: "/ui5resources"
+        rootPath: "ui5resources"
