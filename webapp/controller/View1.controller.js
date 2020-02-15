@@ -5,7 +5,6 @@ sap.ui.define([
 
 	return Controller.extend("test.SignatureTest.controller.View1", {
 		onInit: function () {
-
 		}
 	});
 });
