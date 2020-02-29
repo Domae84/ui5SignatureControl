@@ -1,13 +1,16 @@
-<mvc:View controllerName="test.SignatureTest.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:sig="signature">
-	<Shell id="shell">
-		<App id="app">
-			<pages>
-				<Page id="page" title="{i18n>title}">
-					<content>
-						<sig:FancySignature id="crohats" name="crohats"/>
-					</content>
-				</Page>
-			</pages>
-		</App>
-	</Shell>
+<mvc:View controllerName="test.SignatureTest.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+          xmlns="sap.m" xmlns:sig="signature">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
+                        <HBox justifyContent="Center">
+                            <sig:FancySignature id="crohats" name="crohats" width="500" height="500"/>
+                        </HBox>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
 </mvc:View>
