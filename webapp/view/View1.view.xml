@@ -1,5 +1,5 @@
 <mvc:View controllerName="test.SignatureTest.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
-          xmlns="sap.m" xmlns:sig="signature">
+          xmlns="sap.m" xmlns:sig="signature" xmlns:sigUi5Lib="ui5LibSignature">
     <Shell id="shell">
         <App id="app">
             <pages>
@@ -7,6 +7,9 @@
                     <content>
                         <HBox justifyContent="Center">
                             <sig:FancySignature id="crohats" name="crohats" width="500" height="500"/>
+                        </HBox>
+                        <HBox>
+                            <sigUi5Lib:Signature id="idUi5LibSignature" height="450px" width="450px"/>
                         </HBox>
                     </content>
                 </Page>
